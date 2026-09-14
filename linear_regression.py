@@ -4,10 +4,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn import metrics
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.pipeline import make_pipeline
-import matplotlib.pyplot as plt
 df = pd.read_csv('forestfires.csv')
 print(df.head())
 df.info()
